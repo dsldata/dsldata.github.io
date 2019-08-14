@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[Hello BI Plus]]></title>
     <url>%2F2019%2F02%2F19%2FHello-BI-Plus%2F</url>
-    <content type="text"><![CDATA[BI Plus前端开发说明文档，仅供参考！此项目需具备html、js、es、css、vue、iview、npm等技能！ 准备环境首先安装WebStorm、NodeJs； 初始项目Git项目: biplus，CMD在项目根目录运行安装依赖命令、以及启动开发模式命令:1npm install 1npm run dev 1npm run build 最后的是构建命令，用于生成最终部署的文件！ 目录说明 开发过程假设在此项目上开发一个新的报表，在启动开发模式下，其中主要的开发过程如下 定义报表字段修改src/libs/column.js，添加新报表的模型字段定义！ 定义服务接口URI新增src/api/storestock.js，定义新报表的服务接口URI！ 定义报表UI表单新增src/view/storestock.vue，定义报表UI表单！首先使用iview的组件标签设计表单，标签属性相应绑定后面定义的表单变量以及导入的通用函数！其次，导入通用函数、服务报表接口URI函数、报表字段及其函数！然后，定义表单变量，定义方法！ 定义报表UI路由新增src/router/routers.js，定义报表UI路由！ 访问报表UI路由 http://localhost:8080/biplus?user=dslbi_test&amp;session=782761984&amp;route=storestock]]></content>
+    <content type="text"><![CDATA[BI Plus前端开发说明文档，仅供参考！此项目需具备html、js、es、css、vue、iview、npm等技能！ 准备环境首先安装WebStorm、NodeJs； 初始项目Git项目: biplus，CMD在项目根目录运行安装依赖命令、以及启动开发模式命令:1npm install 1npm run dev 1npm run build 最后的是构建命令，用于生成最终部署的文件！ 目录说明 开发过程假设在此项目上开发一个新的报表，在启动开发模式下，其中主要的开发过程如下1npm run dev 定义报表字段修改src/libs/column.js，添加新报表的模型字段定义！ 定义服务接口URI新增src/api/storestock.js，定义新报表的服务接口URI！ 定义报表UI表单新增src/view/storestock.vue，定义报表UI表单！首先使用iview的组件标签设计表单，标签属性相应绑定后面定义的表单变量以及导入的通用函数！其次，导入通用函数、服务报表接口URI函数、报表字段及其函数！然后，定义表单变量，定义方法！ 定义报表UI路由新增src/router/routers.js，定义报表UI路由！ 访问报表UI路由 http://localhost:8080/biplus?user=dslbi_test&amp;session=782761984&amp;route=storestock]]></content>
       <categories>
         <category>biplus</category>
       </categories>
